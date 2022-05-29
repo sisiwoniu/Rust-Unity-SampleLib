@@ -277,4 +277,13 @@ impl Quaternion {
         self.z = dst.z;
         self.w = dst.w;
     }
+
+    pub fn new() -> Quaternion {
+        Quaternion {
+            x: 0_f32,
+            y: 0_f32,
+            z: 0_f32,
+            w: 0_f32,
+        }
+    }
 }
